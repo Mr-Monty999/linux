@@ -1,0 +1,165 @@
+
+
+Some Of Linux Commands:
+
+
+---Files and directorys Commands---
+
+
+cd = change directory
+
+pwd = print name of current/working directorys 
+
+ls = list directory contents
+
+touch = create empty file
+
+tee = create file and put content
+
+mkdir = create a directory
+
+rmdir = remove empty directories
+
+rm = remove files or directories
+
+mv = move (rename) files
+
+sort = sort lines of text files
+
+file = determine file type
+
+stat = get file status
+
+test = check file types and compare values
+
+locate = find files by name
+
+find = search for files in a directory hierarchy
+
+which = locate a command
+
+whereis = locate the binary, source, and manual page files for a command
+
+more = allows quickly view file and shows details in percentage
+
+less = allows quickly viewing the file
+
+grep = print lines that match patterns
+
+
+---Administration Commands---
+
+uname = system information
+
+whoami = print current user
+
+who = show who is logged on 
+
+w = Show who is logged on and what they are doing
+
+last = show a listing of last logged in users
+
+users =  print the user names of users currently logged in
+
+id = print user and uid and group IDs
+
+logname = print user's login name
+
+useradd = create a new user or update default new user informationan
+
+passwd = change user password
+
+userdel = delete a user account and related files
+
+usermod = modify a user account
+
+groupadd = create a new group
+
+groups = print the groups a user is in
+
+su = run a shell as another user or switch user
+
+sudo = execute a command as another user
+
+chmod = change permissions of a file
+
+chown = change ownership of a file
+
+
+---System Configuration Commands---
+
+fdisk = manipulate disk partition
+
+mkfs = format and build a Linux filesystem
+
+df = Show information about the file system
+
+mount = mount a filesystem
+
+mkswap = set up a Linux swap area
+
+swapon = start swapping to file/device
+
+swapoff = stop swapping to file/device
+
+
+
+
+---Application Management Commands---
+
+apt-get install = install new package 
+
+apt-get renistall = renistall new package 
+
+apt-get remove = remove package
+
+dpkg -i = install local package only
+
+
+---Processes And Modules Commands----
+
+pstree = display a tree of processes
+
+ps = display running processes
+
+top = display running processes interactive 
+
+kill = send signal to process
+
+killall = kill processes by name
+
+pkill = send signal to multi processes by pattern
+
+jobs = Display active jobs
+
+fg = Move job to the foreground
+
+bg = Move jobs to the background
+
+lsmod = Show the status of modules in the Linux Kernel
+
+modinfo = Show information about a Linux Kernel module
+
+modprobe = Add and remove modules from the Linux Kernel
+
+uptime = Tell how long the system has been running
+
+
+
+---Other Commands---
+
+history = show history of executed commands
+
+type = get command type
+
+clear = clear the terminal screen
+
+whatis = display command description
+
+echo = display a line of text
+
+cat /etc/passwd = get users list
+
+cat /etc/shadow = get users and passwords (Required Root)
+
+
