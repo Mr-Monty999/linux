@@ -103,8 +103,6 @@ swapon = start swapping to file/device
 swapoff = stop swapping to file/device
 
 
-
-
 ---Application Management Commands---
 
 apt-get install = install new package 
@@ -161,5 +159,15 @@ echo = display a line of text
 cat /etc/passwd = get users list
 
 cat /etc/shadow = get users and passwords (Required Root)
+
+
+---Redirection Operators---
+> = take command output to replace to file content
+
+>> = take command output and append to file content
+
+< = take file as input for command
+
+<< =  is used to redirect input into an interactive shell script or program 
 
 
