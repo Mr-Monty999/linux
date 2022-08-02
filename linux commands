@@ -38,6 +38,8 @@ find = search for files in a directory hierarchy
 
 which = locate a command
 
+man = an interface to the system reference manuals
+
 whereis = locate the binary, source, and manual page files for a command
 
 more = allows quickly view file and shows details in percentage
@@ -46,8 +48,16 @@ less = allows quickly viewing the file
 
 grep = print lines that match patterns
 
+sed = stream editor for filtering and transforming text
+
+awk = pattern scanning and processing language
+
+
+
+
 
 ---Administration Commands---
+
 
 uname = system information
 
@@ -86,7 +96,11 @@ chmod = change permissions of a file
 chown = change ownership of a file
 
 
+
+
+
 ---System Configuration Commands---
+
 
 fdisk = manipulate disk partition
 
@@ -103,7 +117,10 @@ swapon = start swapping to file/device
 swapoff = stop swapping to file/device
 
 
+
+
 ---Application Management Commands---
+
 
 apt-get install = install new package 
 
@@ -114,7 +131,10 @@ apt-get remove = remove package
 dpkg -i = install local package only
 
 
+
+
 ---Processes And Modules Commands----
+
 
 pstree = display a tree of processes
 
@@ -140,11 +160,65 @@ modinfo = Show information about a Linux Kernel module
 
 modprobe = Add and remove modules from the Linux Kernel
 
+
+
+
+
+---Compress And Decompress Commands---
+
+
+zip = package and compress (archive) files
+
+gzip = compress or expand files
+
+bzip2 = a block-sorting file compressor
+
+tar = an archiving utility
+
+cpio = copy files to and from archives 
+
+
+--- Maintenance Commands ---
+
+at = queue, examine, or delete jobs for later execution
+
+crontab & cron = daemon to execute scheduled commands (Vixie Cron)
+
 uptime = Tell how long the system has been running
+
+date = print or set the system date and time
+
+hwclock = time clocks utility
+
+service = run a System V init script
+
+systemctl = Control the systemd system and service manager
+
+
+
+
+---Networking Commands---
+
+ifconfig = configure a network interface
+
+iwconfig = configure a wireless network interface
+
+route = show / manipulate the IP routing table
+
+ip = show / manipulate routing, network devices, interfaces and tunnels
+
+ifup = bring a network interface up
+
+ifdown = take a network interface down
+
+dhclient = Dynamic Host Configuration Protocol Client
+
+
 
 
 
 ---Other Commands---
+
 
 history = show history of executed commands
 
@@ -162,9 +236,10 @@ cat /etc/shadow = get users and passwords (Required Root)
 
 
 ---Redirection Operators---
-> = take command output to replace to file content
 
->> = take command output and append to file content
+> = take command output to put it in file
+
+>> = take command output and append it to file content
 
 < = take file as input for command
 
