@@ -52,7 +52,13 @@ sed = stream editor for filtering and transforming text
 
 awk = pattern scanning and processing language
 
+head = output the first part of files
 
+tail = output the last part of files
+
+md5sum = compute and check MD5 message digest
+
+sha1sum = compute and check SHA1 message diges
 
 
 
@@ -178,6 +184,8 @@ tar = an archiving utility
 cpio = copy files to and from archives 
 
 
+
+
 --- Maintenance Commands ---
 
 at = queue, examine, or delete jobs for later execution
@@ -193,6 +201,14 @@ hwclock = time clocks utility
 service = run a System V init script
 
 systemctl = Control the systemd system and service manager
+
+init & systemd = system and service manager
+
+runlevel = Prints the previous and current runlevel of the init system
+
+dmesg =  print or control the kernel ring buffer
+
+
 
 
 
@@ -213,6 +229,7 @@ ifdown = take a network interface down
 
 dhclient = Dynamic Host Configuration Protocol Client
 
+wget = The non-interactive network downloader
 
 
 
