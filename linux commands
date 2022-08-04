@@ -65,6 +65,8 @@ sha1sum = compute and check SHA1 message diges
 ---Administration Commands---
 
 
+hostname= show or set the system's host name
+
 uname = system information
 
 whoami = print current user
@@ -101,6 +103,9 @@ chmod = change permissions of a file
 
 chown = change ownership of a file
 
+chgrp = change group ownership
+
+lastb = show a listing of last logged in users
 
 
 
@@ -231,6 +236,9 @@ dhclient = Dynamic Host Configuration Protocol Client
 
 wget = The non-interactive network downloader
 
+rdesktop = Remote Desktop Protocol client
+
+iptables = administration tool for IPv4/IPv6 packet filtering and NAT
 
 
 
@@ -250,6 +258,25 @@ echo = display a line of text
 cat /etc/passwd = get users list
 
 cat /etc/shadow = get users and passwords (Required Root)
+
+
+
+---Printing Commadns---
+
+lp = print files
+
+lpr = print files
+
+lpstat = print cups status information
+
+lpoptions = display or set printer options and defaults
+
+canel = used to cancels print jobs
+
+lprm = cancel print jobs
+
+lpmove = move a job or all jobs to a new destination
+
 
 
 ---Redirection Operators---
